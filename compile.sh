@@ -1,0 +1,1 @@
+gcc -lstdc++ -o meteoritebc -std=c++11 -stdlib=libc++ -x c++ main.cpp ./meteorite/block.cpp ./meteorite/blockchain.cpp ./meteorite/sha256.cpp
